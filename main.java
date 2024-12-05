@@ -16,7 +16,7 @@ public class main {
 
         for (Computer computer : computers) {
             ++i;
-            System.out.printf("%d %s %s\n", i, computer.toString(), computer.getComputerType());
+            System.out.printf("%d %s\n", i, computer.toString());
         }
     }
 

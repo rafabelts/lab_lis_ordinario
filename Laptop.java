@@ -42,4 +42,9 @@ public class Laptop extends Computer implements PortableDevice {
         this.weight = weight;
     }
 
+    @Override
+    public String toString() {
+        return String.format("\t %s \t %s \t %s \t %s \t", this.model, this.manufacturer, this.operatingSystem, getComputerType());
+    }
+
 }

@@ -26,4 +26,9 @@ public final class Notebook extends Laptop {
         return super.getBatteryCapacity();
     }
 
+    @Override
+    public String toString() {
+        return String.format("\t %s \t %s \t %s \t %s \t", this.model, this.manufacturer, this.operatingSystem, getComputerType());
+    }
+
 }
